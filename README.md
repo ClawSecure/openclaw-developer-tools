@@ -1,5 +1,7 @@
 # Free OpenClaw Developer Tools by ClawSecure
 
+[![#2 Product of the Day](https://img.shields.io/badge/%232_Product_of_the_Day-Product_Hunt-FF6154?style=for-the-badge&logo=producthunt&logoColor=white&labelColor=101010)](https://www.producthunt.com/products/clawsecure)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Tools](https://img.shields.io/badge/Tools-2-brightgreen)](#openclaw-ai-agent-developer-tools)
 [![ClawSecure](https://img.shields.io/badge/by-ClawSecure-blueviolet)](https://www.clawsecure.ai)
