@@ -18,9 +18,9 @@ ClawSecure is the independent integrity layer for AI agent skills and workflows.
 
 | Tool | What It Does | Category | Install |
 |------|-------------|----------|---------|
-| **[Claude Timestamps](https://github.com/ClawSecure/claude-timestamps)** | Live timestamped session transcripts for Claude Code. A sidebar panel showing every message with exact timestamps, tool calls, full-text search, and multi-session support across all workspaces. VS Code does not show timestamps natively; this fills that gap. | Productivity | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ClawSecure.claude-timestamps) / [Open VSX](https://open-vsx.org/extension/ClawSecure/claude-timestamps) |
 | **[ShutUp Tabs](https://github.com/ClawSecure/shutup-tabs)** | Auto-closes the diff tabs Claude Code force-opens on every file edit. Detects AI agent tabs and closes them after a safe delay so your write operations complete first. Works in VS Code, Cursor, Windsurf, Google Antigravity, Roo Code, Cline, Kilo Code, and every VS Code fork. | Productivity | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ClawSecure.shutup-tabs) / [Open VSX](https://open-vsx.org/extension/ClawSecure/shutup-tabs) |
 | **[Railgun](https://github.com/ClawSecure/railgun)** | Agent orchestration engine that won't run up a $47K bill. Deterministic YAML pipelines with runtime limits, concurrency caps, and per-step observability. The simplest way to run multi-agent workflows in production. | Orchestration | [GitHub](https://github.com/ClawSecure/railgun) |
+| **[Claude Timestamps](https://github.com/ClawSecure/claude-timestamps)** | Live timestamped session transcripts for Claude Code. A sidebar panel showing every message with exact timestamps, tool calls, full-text search, and multi-session support across all workspaces. VS Code does not show timestamps natively; this fills that gap. | Productivity | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ClawSecure.claude-timestamps) / [Open VSX](https://open-vsx.org/extension/ClawSecure/claude-timestamps) |
 
 ---
 
