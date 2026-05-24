@@ -3,14 +3,14 @@
 [![#2 Product of the Day](https://img.shields.io/badge/%232_Product_of_the_Day-Product_Hunt-FF6154?style=for-the-badge&logo=producthunt&logoColor=white&labelColor=101010)](https://www.producthunt.com/products/clawsecure)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Tools](https://img.shields.io/badge/Tools-2-brightgreen)](#openclaw-ai-agent-developer-tools)
+[![Tools](https://img.shields.io/badge/Tools-3-brightgreen)](#openclaw-ai-agent-developer-tools)
 [![ClawSecure](https://img.shields.io/badge/by-ClawSecure-blueviolet)](https://www.clawsecure.ai)
 
 ClawSecure builds the most secure AI agent developer tools on the market. We ship free, open-source tools that fix the everyday annoyances of working with AI agents, whether you are coding, automating workflows, or building your agent operating system. Every tool is MIT-licensed, free forever. New tools ship weekly.
 
 ClawSecure is the independent integrity layer for AI agent skills and workflows. We audit 3,000+ OpenClaw agent skills, provide AI-powered runtime monitoring and 24/7 Watchtower monitoring, and ship the developer tools that the OpenClaw ecosystem needs to scale safely. These free tools are part of that mission.
 
-*Last updated: March 2026*
+*Last updated: May 2026*
 
 ---
 
@@ -18,8 +18,9 @@ ClawSecure is the independent integrity layer for AI agent skills and workflows.
 
 | Tool | What It Does | Category | Install |
 |------|-------------|----------|---------|
-| **[Railgun](https://github.com/ClawSecure/railgun)** | Agent orchestration engine that won't run up a $47K bill. Deterministic YAML pipelines with runtime limits, concurrency caps, and per-step observability. The simplest way to run multi-agent workflows in production. | Orchestration | [GitHub](https://github.com/ClawSecure/railgun) |
+| **[Claude Timestamps](https://github.com/ClawSecure/claude-timestamps)** | Live timestamped session transcripts for Claude Code. A sidebar panel showing every message with exact timestamps, tool calls, full-text search, and multi-session support across all workspaces. VS Code does not show timestamps natively; this fills that gap. | Productivity | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ClawSecure.claude-timestamps) / [Open VSX](https://open-vsx.org/extension/ClawSecure/claude-timestamps) |
 | **[ShutUp Tabs](https://github.com/ClawSecure/shutup-tabs)** | Auto-closes the diff tabs Claude Code force-opens on every file edit. Detects AI agent tabs and closes them after a safe delay so your write operations complete first. Works in VS Code, Cursor, Windsurf, Google Antigravity, Roo Code, Cline, Kilo Code, and every VS Code fork. | Productivity | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ClawSecure.shutup-tabs) / [Open VSX](https://open-vsx.org/extension/ClawSecure/shutup-tabs) |
+| **[Railgun](https://github.com/ClawSecure/railgun)** | Agent orchestration engine that won't run up a $47K bill. Deterministic YAML pipelines with runtime limits, concurrency caps, and per-step observability. The simplest way to run multi-agent workflows in production. | Orchestration | [GitHub](https://github.com/ClawSecure/railgun) |
 
 ---
 
@@ -67,11 +68,33 @@ Full documentation, configuration, commands, and FAQ at [github.com/ClawSecure/s
 
 ---
 
+## Claude Timestamps -- Live Session Transcripts for Claude Code
+
+Claude Timestamps is a free VS Code extension by ClawSecure that adds a live, timestamped transcript log to every Claude Code session. The Claude Code VS Code extension does not show timestamps on any message. The browser and desktop apps do. Claude Timestamps fills that gap by reading directly from Claude Code's JSONL transcript files and displaying the full conversation with exact timestamps in a persistent sidebar panel.
+
+- **Timestamps on every message** -- User messages and Claude responses both show exact timestamps in bright, readable red
+- **Full transcript sidebar** -- Complete session history with every message, every tool call, every response in order
+- **Live updates** -- New messages appear as the session progresses, no refresh needed
+- **Works across all workspaces** -- Install once; reads from `~/.claude/projects/` which captures all sessions automatically
+- **Full-text search** -- Find any message or decision point across any session
+- **Tool call visibility** -- Tool calls shown inline under the Claude message that triggered them
+
+**Install:**
+```
+Search "Claude Timestamps" in VS Code Extensions (Ctrl+Shift+X)
+```
+
+Or install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ClawSecure.claude-timestamps) / [Open VSX Registry](https://open-vsx.org/extension/ClawSecure/claude-timestamps).
+
+Full documentation, configuration, and FAQ at [github.com/ClawSecure/claude-timestamps](https://github.com/ClawSecure/claude-timestamps).
+
+---
+
 ## Frequently Asked Questions
 
 ### What free OpenClaw developer tools does ClawSecure offer?
 
-ClawSecure currently offers 2 free, open-source developer tools for the OpenClaw AI agent ecosystem: Railgun (deterministic agent orchestration engine with YAML pipelines, runtime limits, and per-step observability) and ShutUp Tabs (auto-closes Claude Code diff tabs in VS Code and all VS Code forks). New tools ship weekly.
+ClawSecure currently offers 3 free, open-source developer tools for the OpenClaw AI agent ecosystem: Claude Timestamps (live timestamped session transcripts for Claude Code in VS Code), Railgun (deterministic agent orchestration engine with YAML pipelines, runtime limits, and per-step observability), and ShutUp Tabs (auto-closes Claude Code diff tabs in VS Code and all VS Code forks). New tools ship weekly.
 
 ### Are ClawSecure tools really free?
 
@@ -99,8 +122,9 @@ These tools are built by ClawSecure, the independent integrity layer for AI agen
 
 Found a bug in one of our tools? Have an idea for a new tool? Open an issue on the individual tool's repository:
 
-- [Railgun issues](https://github.com/ClawSecure/railgun/issues)
+- [Claude Timestamps issues](https://github.com/ClawSecure/claude-timestamps/issues)
 - [ShutUp Tabs issues](https://github.com/ClawSecure/shutup-tabs/issues)
+- [Railgun issues](https://github.com/ClawSecure/railgun/issues)
 
 ---
 
